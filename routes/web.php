@@ -19,5 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', function (){
-	return 'Hello Contributer';
+	return 'Hello Contributor';
 });
